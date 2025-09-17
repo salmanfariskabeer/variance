@@ -6,7 +6,7 @@ import plotly.express as px
 st.set_page_config(page_title="Stock Variance Dashboard", layout="wide")
 
 # --- Load Excel File ---
-file_path = "stock_data.xlsx"  # Replace with your Excel file path
+file_path = "stock_data.Xlsx"  # Replace with your Excel file path
 df = pd.read_excel(file_path)
 df.columns = df.columns.str.strip()
 
