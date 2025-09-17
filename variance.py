@@ -135,4 +135,3 @@ remaining_df = filtered_df.drop(top_30.index)
 st.dataframe(
     remaining_df[available_columns].sort_values(['Category', 'Diff Stock'], ascending=[True, False])
 )
-
